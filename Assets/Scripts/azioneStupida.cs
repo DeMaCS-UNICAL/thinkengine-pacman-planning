@@ -2,11 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Planner;
+using System.Diagnostics;
+using Debug = UnityEngine.Debug;
 
 public class azioneStupida : Action
 {
     protected bool fatto;
     private string color;
+    private Stopwatch watch;
 
     public string Color { get => color; set => color = value; }
 
@@ -16,16 +19,22 @@ public class azioneStupida : Action
     }
     public override void Do()
     {
-        Debug.Log("COLORE:"+Color);
-        GameObject.Find("Ghost_Blinky").
+        watch = new Stopwatch();
+        //Debug.Log("COLORE:"+Color);
+        /*GameObject.Find("Ghost_Blinky").
             transform.Find("Body").
-            GetComponent<SpriteRenderer>().color = ToColor(Color);
-        fatto = true;
+            GetComponent<SpriteRenderer>().color = ToColor(Color);*/
+        Debug.Log("cia");
+        watch.Start();
     }
 
     public override bool Done()
     {
-        return fatto;
+        /*if (watch.ElapsedMilliseconds > 10)
+        {
+            watch.Stop();
+        }*/
+        return true;
     }
 
     public override State Prerequisite()

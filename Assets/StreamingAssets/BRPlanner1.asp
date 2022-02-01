@@ -9,5 +9,5 @@
 % actionArguments(OrderOfExecution,ArgumentName, ArgumentValue).
 applyAction(0,azioneStupida).
 actionArgument(0,"Color",green).
-applyAction(1,azioneStupida).
-actionArgument(1,"Color",red).
+%applyAction(1,azioneStupida).
+%actionArgument(1,"Color",red).
