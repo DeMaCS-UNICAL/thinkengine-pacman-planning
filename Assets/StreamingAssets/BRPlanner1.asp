@@ -1,12 +1,15 @@
 %For runtime instantiated GameObject, only the prefab mapping is provided. Use that one substituting the gameobject name accordingly.
  %Sensors.
-%bRSensor(bR,objectIndex(Index),gameObject(transform(position(x(Value))))).
-%bRSensor(bR,objectIndex(Index),gameObject(transform(position(y(Value))))).
-%bRSensor(bR,objectIndex(Index),gameObject(transform(position(z(Value))))).
-%For ASP programs:
-% Predicates for Action invokation.
-% applyAction(OrderOfExecution,ActionClassName).
-% actionArguments(OrderOfExecution,ArgumentName, ArgumentValue).
+%powerPelletSensor(powerPelletClone,objectIndex(Index),positionToInt(x(Value))).
+%powerPelletSensor(powerPelletClone,objectIndex(Index),positionToInt(y(Value))).
+%pacmanSensor(pacman,objectIndex(Index),positionToInt(x(Value))).
+%pacmanSensor(pacman,objectIndex(Index),positionToInt(y(Value))).
+%ghostBaseSensor(ghostBlinky,objectIndex(Index),positionToInt(x(Value))).
+%ghostBaseSensor(ghostBlinky,objectIndex(Index),positionToInt(y(Value))).
+%pelletSensor(pelletClone,objectIndex(Index),positionToInt(x(Value))).
+%pelletSensor(pelletClone,objectIndex(Index),positionToInt(y(Value))).
+%nodeSensor(nodeClone,objectIndex(Index),positionToInt(x(Value))).
+%nodeSensor(nodeClone,objectIndex(Index),positionToInt(y(Value))).
 applyAction(0,azioneStupida).
 actionArgument(0,"Color",green).
 %applyAction(1,azioneStupida).

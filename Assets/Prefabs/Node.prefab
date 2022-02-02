@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 5210854924316708543}
   - component: {fileID: 5210854924316708528}
   - component: {fileID: 4380254421658792248}
-  - component: {fileID: 4885203403367157061}
-  - component: {fileID: 915905874259731397}
+  - component: {fileID: 4729221213442547973}
+  - component: {fileID: 6538674959988589071}
+  - component: {fileID: 1597453184460109967}
   m_Layer: 10
   m_Name: Node
   m_TagString: Untagged
@@ -76,7 +77,19 @@ MonoBehaviour:
   obstacleLayer:
     serializedVersion: 2
     m_Bits: 512
---- !u!114 &4885203403367157061
+--- !u!114 &4729221213442547973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5210854924316708529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1480a0cce1b273f458c556ef731b6a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6538674959988589071
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -88,7 +101,7 @@ MonoBehaviour:
   m_Script: {fileID: 417179157, guid: 06783fc4099d1e04ba318698c43e592c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &915905874259731397
+--- !u!114 &1597453184460109967
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -102,81 +115,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _savedProperties:
   - myStrings:
-    - active
+    - PositionToInt
     Count: 1
   - myStrings:
-    - transform
-    - position
+    - PositionToInt
+    - x
     Count: 2
   - myStrings:
-    - transform
-    Count: 1
-  - myStrings:
-    - transform
-    - position
-    - x
-    Count: 3
-  - myStrings:
-    - transform
-    - position
+    - PositionToInt
     - y
-    Count: 3
-  - myStrings:
-    - Node
-    Count: 1
-  - myStrings:
-    - Node
-    - availableDirections
     Count: 2
-  - myStrings:
-    - Node
-    - availableDirections
-    - Vector2
-    - x
-    Count: 4
-  - myStrings:
-    - Node
-    - availableDirections
-    - Vector2
-    - y
-    Count: 4
   _toMapProperties:
   - myStrings:
-    - active
-    Count: 1
-  - myStrings:
-    - transform
-    - position
+    - PositionToInt
     - x
-    Count: 3
+    Count: 2
   - myStrings:
-    - transform
-    - position
+    - PositionToInt
     - y
-    Count: 3
-  - myStrings:
-    - Node
-    - availableDirections
-    - Vector2
-    - x
-    Count: 4
-  - myStrings:
-    - Node
-    - availableDirections
-    - Vector2
-    - y
-    Count: 4
+    Count: 2
   _configurationName: nodeSensor
-  operationPerPropertyIndexes: 77c1f82a0113983ed0c3c322066ee14b056ee14b19af4b546a3b19ba751e9d52741e9d52
-  operationPerPropertyOperations: 000000000000000000000000000000000000000000000000000000000000000000000000
-  specificValuePerPropertyIndexes: 77c1f82a0113983ed0c3c322066ee14b056ee14b19af4b546a3b19ba751e9d52741e9d52
+  operationPerPropertyIndexes: 8c675a74ca411f2dc9411f2d
+  operationPerPropertyOperations: 000000000000000000000000
+  specificValuePerPropertyIndexes: 8c675a74ca411f2dc9411f2d
   specificValuePerPropertyValues:
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
   - 
   - 
   - 

@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6089054482580266407}
   - component: {fileID: 8169865772841031667}
   - component: {fileID: 1700444488541191377}
+  - component: {fileID: 967337298269980585}
   m_Layer: 8
   m_Name: Pellet
   m_TagString: Untagged
@@ -153,46 +154,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _savedProperties:
   - myStrings:
-    - active
+    - PositionToInt
     Count: 1
   - myStrings:
-    - transform
-    Count: 1
-  - myStrings:
-    - transform
-    - position
+    - PositionToInt
+    - x
     Count: 2
   - myStrings:
-    - transform
-    - position
-    - x
-    Count: 3
-  - myStrings:
-    - transform
-    - position
+    - PositionToInt
     - y
-    Count: 3
+    Count: 2
   _toMapProperties:
   - myStrings:
-    - active
-    Count: 1
-  - myStrings:
-    - transform
-    - position
+    - PositionToInt
     - x
-    Count: 3
+    Count: 2
   - myStrings:
-    - transform
-    - position
+    - PositionToInt
     - y
-    Count: 3
+    Count: 2
   _configurationName: pelletSensor
-  operationPerPropertyIndexes: 77c1f82a0113983ed0c3c322066ee14b056ee14b
-  operationPerPropertyOperations: 0000000000000000000000000000000000000000
-  specificValuePerPropertyIndexes: 77c1f82a0113983ed0c3c322066ee14b056ee14b
+  operationPerPropertyIndexes: 8c675a74ca411f2dc9411f2d
+  operationPerPropertyOperations: 000000000000000000000000
+  specificValuePerPropertyIndexes: 8c675a74ca411f2dc9411f2d
   specificValuePerPropertyValues:
   - 
   - 
   - 
-  - 
-  - 
+--- !u!114 &967337298269980585
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6089054482580266424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1480a0cce1b273f458c556ef731b6a28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

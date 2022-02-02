@@ -415,15 +415,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421132880499570675, guid: 8398b287235293d469d1683369c48531, type: 3}
       propertyPath: operationPerPropertyIndexes.Array.size
-      value: 11
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5421132880499570675, guid: 8398b287235293d469d1683369c48531, type: 3}
       propertyPath: operationPerPropertyOperations.Array.size
-      value: 11
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5421132880499570675, guid: 8398b287235293d469d1683369c48531, type: 3}
       propertyPath: specificValuePerPropertyValues.Array.size
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5421132880499570675, guid: 8398b287235293d469d1683369c48531, type: 3}
       propertyPath: operationPerPropertyIndexes.Array.data[11]
@@ -431,7 +431,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5421132880499570675, guid: 8398b287235293d469d1683369c48531, type: 3}
       propertyPath: specificValuePerPropertyIndexes.Array.size
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5421132880499570675, guid: 8398b287235293d469d1683369c48531, type: 3}
       propertyPath: specificValuePerPropertyIndexes.Array.data[11]
@@ -10919,16 +10919,16 @@ MonoBehaviour:
   m_Script: {fileID: 675518867, guid: 7c5742d7bbae1a3418cb50e197a29e5b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  frequenceUpdate: 0
+  FPS: 0
   enableBrain: 1
   debug: 1
   maintainInputFile: 1
   _chosenSensorConfigurations:
+  - powerPelletSensor
+  - nodeSensor
   - pacmanSensor
   - ghost_BaseSensor
   - pelletSensor
-  - powerPelletSensor
-  - nodeSensor
   AIFilesPath: .\Assets\StreamingAssets\
   AIFilesPrefix: BRPlanner1
   _AIFileTemplatePath: .\Assets\Resources\PlannerBrainTemplateBRPlanner1.asp
