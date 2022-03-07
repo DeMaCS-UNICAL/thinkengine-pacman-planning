@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 [RequireComponent(typeof(Movement))]
 public class Pacman : MonoBehaviour
@@ -7,12 +9,30 @@ public class Pacman : MonoBehaviour
     public SpriteRenderer spriteRenderer { get; private set; }
     public new Collider2D collider { get; private set; }
     public Movement movement { get; private set; }
+    private Tilemap walls;
+    private List<KeyValuePair<int, int>> wallsPosition;
 
     private void Awake()
     {
         this.spriteRenderer = GetComponent<SpriteRenderer>();
         this.collider = GetComponent<Collider2D>();
         this.movement = GetComponent<Movement>();
+        walls = GameObject.Find("Walls").GetComponent<Tilemap>();
+        wallsPosition = new List<KeyValuePair<int, int>>();
+        BoundsInt bounds = walls.cellBounds;
+        TileBase[] wallsTiles = walls.GetTilesBlock(bounds);
+        for (int x = 0; x < bounds.size.x; x++)
+        {
+            for (int y = 0; y < bounds.size.y; y++)
+            {
+                TileBase tile = wallsTiles[x + y * bounds.size.x];
+                if (tile != null)
+                {
+                    wallsPosition.Add(new KeyValuePair<int, int>(x, y));
+                    //Debug.Log(x + " " + y + " " + tile.name);
+                }
+            }
+        }
     }
 
     private void Update()

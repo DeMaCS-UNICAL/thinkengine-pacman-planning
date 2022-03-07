@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class PositionToInt : MonoBehaviour
 {
-    int x;
-    int y;
+    public int x;
+    public int y;
 
     private void Update()
     {
-        x = (int)Math.Floor(transform.position.x);
-        y = (int)Math.Floor(transform.position.y);
+        x = (int)Math.Truncate(transform.position.x);
+        y = (int)Math.Truncate(transform.position.y);
     }
 }

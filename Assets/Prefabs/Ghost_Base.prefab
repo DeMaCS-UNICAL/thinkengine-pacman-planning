@@ -323,6 +323,34 @@ MonoBehaviour:
     - PositionToInt
     - y
     Count: 2
+  - myStrings:
+    - GhostHome
+    Count: 1
+  - myStrings:
+    - GhostHome
+    - enabled
+    Count: 2
+  - myStrings:
+    - GhostScatter
+    Count: 1
+  - myStrings:
+    - GhostScatter
+    - enabled
+    Count: 2
+  - myStrings:
+    - GhostChase
+    Count: 1
+  - myStrings:
+    - GhostChase
+    - enabled
+    Count: 2
+  - myStrings:
+    - GhostFrightened
+    Count: 1
+  - myStrings:
+    - GhostFrightened
+    - enabled
+    Count: 2
   _toMapProperties:
   - myStrings:
     - PositionToInt
@@ -332,11 +360,35 @@ MonoBehaviour:
     - PositionToInt
     - y
     Count: 2
+  - myStrings:
+    - GhostHome
+    - enabled
+    Count: 2
+  - myStrings:
+    - GhostScatter
+    - enabled
+    Count: 2
+  - myStrings:
+    - GhostChase
+    - enabled
+    Count: 2
+  - myStrings:
+    - GhostFrightened
+    - enabled
+    Count: 2
   _configurationName: ghost_BaseSensor
-  operationPerPropertyIndexes: 8c675a74ca411f2dc9411f2d
-  operationPerPropertyOperations: 000000000000000000000000
-  specificValuePerPropertyIndexes: 8c675a74ca411f2dc9411f2d
+  operationPerPropertyIndexes: 8c675a74ca411f2dc9411f2d59433a15acbfcdb71c4a41db4991a7b29e5967ec077243c6ee5f8a05b73581d1
+  operationPerPropertyOperations: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  specificValuePerPropertyIndexes: 8c675a74ca411f2dc9411f2d59433a15acbfcdb71c4a41db4991a7b29e5967ec077243c6ee5f8a05b73581d1
   specificValuePerPropertyValues:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

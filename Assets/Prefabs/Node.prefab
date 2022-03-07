@@ -12,8 +12,6 @@ GameObject:
   - component: {fileID: 5210854924316708528}
   - component: {fileID: 4380254421658792248}
   - component: {fileID: 4729221213442547973}
-  - component: {fileID: 6538674959988589071}
-  - component: {fileID: 1597453184460109967}
   m_Layer: 10
   m_Name: Node
   m_TagString: Untagged
@@ -89,56 +87,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1480a0cce1b273f458c556ef731b6a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &6538674959988589071
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5210854924316708529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 417179157, guid: 06783fc4099d1e04ba318698c43e592c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1597453184460109967
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5210854924316708529}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -508812344, guid: 06783fc4099d1e04ba318698c43e592c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _savedProperties:
-  - myStrings:
-    - PositionToInt
-    Count: 1
-  - myStrings:
-    - PositionToInt
-    - x
-    Count: 2
-  - myStrings:
-    - PositionToInt
-    - y
-    Count: 2
-  _toMapProperties:
-  - myStrings:
-    - PositionToInt
-    - x
-    Count: 2
-  - myStrings:
-    - PositionToInt
-    - y
-    Count: 2
-  _configurationName: nodeSensor
-  operationPerPropertyIndexes: 8c675a74ca411f2dc9411f2d
-  operationPerPropertyOperations: 000000000000000000000000
-  specificValuePerPropertyIndexes: 8c675a74ca411f2dc9411f2d
-  specificValuePerPropertyValues:
-  - 
-  - 
-  - 
+  x: 0
+  y: 0

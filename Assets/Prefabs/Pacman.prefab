@@ -192,6 +192,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1480a0cce1b273f458c556ef731b6a28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  x: 0
+  y: 0
 --- !u!114 &1763175711026172410
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -228,6 +230,46 @@ MonoBehaviour:
     - PositionToInt
     - y
     Count: 2
+  - myStrings:
+    - Pacman
+    Count: 1
+  - myStrings:
+    - Pacman
+    - wallsPosition
+    Count: 2
+  - myStrings:
+    - Pacman
+    - wallsPosition
+    - KeyValuePair`2
+    - Key
+    Count: 4
+  - myStrings:
+    - Pacman
+    - wallsPosition
+    - KeyValuePair`2
+    - Value
+    Count: 4
+  - myStrings:
+    - Movement
+    Count: 1
+  - myStrings:
+    - Movement
+    - direction
+    Count: 2
+  - myStrings:
+    - Movement
+    - intDirection
+    Count: 2
+  - myStrings:
+    - Movement
+    - intDirection
+    - x
+    Count: 3
+  - myStrings:
+    - Movement
+    - intDirection
+    - y
+    Count: 3
   _toMapProperties:
   - myStrings:
     - PositionToInt
@@ -237,11 +279,42 @@ MonoBehaviour:
     - PositionToInt
     - y
     Count: 2
+  - myStrings:
+    - Pacman
+    - wallsPosition
+    - KeyValuePair`2
+    - Key
+    Count: 4
+  - myStrings:
+    - Pacman
+    - wallsPosition
+    - KeyValuePair`2
+    - Value
+    Count: 4
+  - myStrings:
+    - Movement
+    - intDirection
+    - x
+    Count: 3
+  - myStrings:
+    - Movement
+    - intDirection
+    - y
+    Count: 3
   _configurationName: pacmanSensor
-  operationPerPropertyIndexes: 8c675a74ca411f2dc9411f2d
-  operationPerPropertyOperations: 000000000000000000000000
-  specificValuePerPropertyIndexes: 8c675a74ca411f2dc9411f2d
+  operationPerPropertyIndexes: 8c675a74ca411f2dc9411f2d596f0dc1635e2096aa69d272e211352af2ac56a8ff95b186dcc9a1ad3a953d70dbc9a1ad
+  operationPerPropertyOperations: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  specificValuePerPropertyIndexes: 8c675a74ca411f2dc9411f2d596f0dc1635e2096aa69d272e211352af2ac56a8ff95b186dcc9a1ad3a953d70dbc9a1ad
   specificValuePerPropertyValues:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
   - 
   - 
   - 

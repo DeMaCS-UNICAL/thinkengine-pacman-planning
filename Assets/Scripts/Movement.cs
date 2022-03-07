@@ -7,6 +7,7 @@ public class Movement : MonoBehaviour
     public float speedMultiplier = 1.0f;
     public Vector2 initialDirection;
     public LayerMask obstacleLayer;
+    private PositionToInt intDirection;
 
     public new Rigidbody2D rigidbody { get; private set; }
     public Vector2 direction { get; private set; }
@@ -41,6 +42,8 @@ public class Movement : MonoBehaviour
         if (this.nextDirection != Vector2.zero) {
             SetDirection(this.nextDirection);
         }
+        intDirection.x = (int)direction.x;
+        intDirection.y = (int)direction.y;
     }
 
     private void FixedUpdate()
